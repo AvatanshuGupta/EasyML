@@ -1,5 +1,5 @@
 import numpy as np
-class Softmax_Classifier:
+class LogisticRegression:
     def __init__(self,epochs=1000,learning_rate=0.1,patience=20,min_del=1e-4):
         self.w=None
         self.b=None
