@@ -1,7 +1,7 @@
 Metadata-Version: 2.4
 Name: Neurix
-Version: 0.1.0
-Summary: EasyMl is a simple ML utility library with preprocessing, regression, classification, and evaluation tools
+Version: 0.1.2
+Summary: Neurix is a simple ML utility library with preprocessing, regression, classification, and evaluation tools
 Home-page: https://github.com/AvatanshuGupta/EasyML.git
 Author: Avatanshu Gupta
 Author-email: avatanshugupta@gmail.com
@@ -283,7 +283,7 @@ Returns:
 - `intercept` (float): Bias term of the model.
 
 ```python 
-from GDRidgeRegression import GDRidge
+from Neurix.Regression import GDRidge
 import numpy as np
 
 # Example dataset
@@ -671,7 +671,7 @@ Centers new data using the previously computed mean.
 - `mean` (ndarray): Mean of each feature in the training data.
 
 ```python
-from Nuerix.preprocessing import MeanScaler
+from Neurix.preprocessing import MeanScaler
 import numpy as np
 
 X_train = np.array([[1, 2], [3, 4], [5, 6]])
@@ -888,7 +888,7 @@ Raises Exception: If the lengths of x and y do not match.
 - `feat_len` (int): Number of elements in input arrays.
 
 ```python
-from relation.Pearson_corr import Pearson_corr
+from Neurix.relation import Pearson_corr
 import numpy as np
 
 x = np.array([10, 20, 30, 40])

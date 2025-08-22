@@ -261,7 +261,7 @@ Returns:
 - `intercept` (float): Bias term of the model.
 
 ```python 
-from GDRidgeRegression import GDRidge
+from Neurix.Regression import GDRidge
 import numpy as np
 
 # Example dataset
@@ -649,7 +649,7 @@ Centers new data using the previously computed mean.
 - `mean` (ndarray): Mean of each feature in the training data.
 
 ```python
-from Nuerix.preprocessing import MeanScaler
+from Neurix.preprocessing import MeanScaler
 import numpy as np
 
 X_train = np.array([[1, 2], [3, 4], [5, 6]])

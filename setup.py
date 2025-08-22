@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='Neurix',                 
-    version='0.1.1',                
+    version='0.1.2',                
     author='Avatanshu Gupta',        
     author_email='avatanshugupta@gmail.com',  
     description='Neurix is a simple ML utility library with preprocessing, regression, classification, and evaluation tools',

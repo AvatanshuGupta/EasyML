@@ -14,7 +14,7 @@ Neurix/Regression/GDRidgeRegression.py
 Neurix/Regression/LinearRegression.py
 Neurix/Regression/OLSRidgeRegression.py
 Neurix/Regression/__init__.py
-Neurix/preprocessing/MasAbsScaler.py
+Neurix/preprocessing/MaxAbsScaler.py
 Neurix/preprocessing/MeanScaler.py
 Neurix/preprocessing/MinMaxScaler.py
 Neurix/preprocessing/SimpleImputer.py
