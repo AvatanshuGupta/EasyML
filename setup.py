@@ -5,10 +5,10 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='Neurix',                 
-    version='0.1.0',                
+    version='0.1.1',                
     author='Avatanshu Gupta',        
     author_email='avatanshugupta@gmail.com',  
-    description='EasyMl is a simple ML utility library with preprocessing, regression, classification, and evaluation tools',
+    description='Neurix is a simple ML utility library with preprocessing, regression, classification, and evaluation tools',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/AvatanshuGupta/EasyML.git', 

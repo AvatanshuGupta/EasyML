@@ -866,7 +866,7 @@ Raises Exception: If the lengths of x and y do not match.
 - `feat_len` (int): Number of elements in input arrays.
 
 ```python
-from relation.Pearson_corr import Pearson_corr
+from Neurix.relation import Pearson_corr
 import numpy as np
 
 x = np.array([10, 20, 30, 40])

@@ -1,3 +1,3 @@
-from .GDRidgeRegression import GDRidgeRegression
+from .GDRidgeRegression import GDRidge
 from .LinearRegression import LinearRegression
-from .OLSRidgeRegression import OLSRidgeRegression
+from .OLSRidgeRegression import OLSRidge
